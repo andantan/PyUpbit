@@ -108,20 +108,14 @@ stocked_symbol.append(["TOTAL", "0", eval_amount_total + cash, "0", amount_total
 
 data_info = ["SYMBOL", "BID", "BALANCE", "QUOTE", "AMOUNT", "EVAL_AMOUNT", "RETURN", "MARGIN", "WEIGHT"]
 
-# 결과를 보고싶으시면 여기부터 주석처리해주세요.
 for symbol in stocked_symbol:
     for k, v in dict(zip(data_info, symbol)).items():
         print(f"{k}={v},", end="")
     
     print(" ", end="")
-# 여기까지
 
-# 결과를 보고싶으시면 주석을 풀어주세요. (결과 확인용)
 # data = { symbol[0]: symbol[1:] for symbol in stocked_symbol }
 
 # frame = pd.DataFrame(data, index=data_info[1:])
 
 # print(frame.T)
-# 여기까지
-
-# !!!! Winform에서 실행시 결과 확인용 부분은 꼭 주석처리해주세요 !!!!
