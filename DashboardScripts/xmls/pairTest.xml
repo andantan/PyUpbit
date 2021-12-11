@@ -1,0 +1,14 @@
+<tickers>
+	<ticker>
+		<symbol>BTC</symbol>
+		<market>KRW</market>
+	</ticker>
+	<ticker>
+		<symbol>BTC</symbol>
+		<market>USDT</market>
+	</ticker>
+    <ticker>
+		<symbol>BTC</symbol>
+		<market>USD</market>
+	</ticker>
+</tickers>
